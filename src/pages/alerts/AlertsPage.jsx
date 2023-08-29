@@ -1,6 +1,11 @@
 
-export default function AlertsPage() {
-  return (
-    <div>AlertsPage</div>
+const AlertsPage = () => {
+  return(
+    <div>
+
+    </div>
   )
 }
+
+export default AlertsPage;
+

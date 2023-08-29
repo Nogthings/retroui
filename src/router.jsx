@@ -1,5 +1,5 @@
 import { createBrowserRouter } from "react-router-dom";
-import Layout from "./layouts/Layout";
+import Layout from "./pages/shared/layouts/Layout";
 import HomePage from "./pages/HomePage";
 import AlertsPage from "./pages/alerts/AlertsPage";
 
@@ -9,7 +9,7 @@ const router = createBrowserRouter([
         element: <Layout/>,
         children: [
             {index: true, element: <HomePage/>},
-            {path: 'application-ui/alert-components', element: <AlertsPage/>}
+            {path: 'components/alerts', element: <AlertsPage/>}
         ]
     },
 ]);
