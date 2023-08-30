@@ -2,7 +2,7 @@
 const AlertsPage = () => {
   return(
     <div>
-
+      alerts works
     </div>
   )
 }

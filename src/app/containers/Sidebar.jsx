@@ -1,5 +1,5 @@
-import HeartIcon from "../icons/HeartIcon";
-import BookIcon from "../icons/BookIcon";
+import HeartIcon from "../../pages/shared/icons/HeartIcon";
+import BookIcon from "../../pages/shared/icons/BookIcon";
 
 const Sidebar = () => {
   return (
@@ -38,7 +38,11 @@ const Sidebar = () => {
             href="javascript:;"
             aria-label="Retroui"
           >
-            Retroui <span className="text-red-500"> <HeartIcon/> </span>
+            Retroui{" "}
+            <span className="text-red-500">
+              {" "}
+              <HeartIcon />{" "}
+            </span>
           </a>
         </div>
         <nav
@@ -52,7 +56,7 @@ const Sidebar = () => {
                 href="javascript:;"
               >
                 <span className="text-black">
-                  <BookIcon/>
+                  <BookIcon />
                 </span>
                 Documentation
               </a>
